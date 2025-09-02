@@ -1,6 +1,11 @@
-# foundation-toolkit
+# ThunderTeam toolkit
 
-## toolkit en local
+Este toolkit es una herramienta que permite realizar tareas repetitivas en el sistema de ThunderTeam.
+
+## Herramientas disponibles
+1. Borrar cache de instancia(s)
+
+## Ejecutar en local
 
 Se necesita tener instalado los siguientes
 
@@ -23,7 +28,7 @@ Se necesita tener instalado los siguientes
   env=production use_proxies=True python3 main.py
   ```
 
-## toolkit en Docker
+## Ejecutar con Docker
 
 Ejecutar:
 
