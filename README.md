@@ -24,8 +24,8 @@ Se necesita tener instalado los siguientes
   Se tiene que enviar la variable "env", la cual hace referencia a uno lo los ambientes existentes en el archivo settings.json,
   en el caso de que se envie un entorno que no esta definido; por defecto se configurará con el entorno de "development".
   ```
-  env=development use_proxies=False python3 main.py
-  env=production use_proxies=True python3 main.py
+  env=development use_proxies=False python3.8 main.py
+  env=production use_proxies=True python3.8 main.py
   ```
 
 ## Ejecutar con Docker
