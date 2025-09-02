@@ -1,0 +1,60 @@
+{
+  "development": {
+    "bway": {
+      "host": "mdb-test.c6vunyturrl6.us-west-1.rds.amazonaws.com",
+      "database": "db_bway_imaginex",
+      "user": "developer",
+      "password": "Bsale-2019",
+      "port": 3306
+    },
+    "generalDB": {
+      "user": "developer",
+      "password": "Bsale-2019",
+      "port": 3306
+    },
+    "apis": {
+      "menuAPI": "http://menu-api.bsale.com",
+      "integratorAPI": "http://54.67.123.129:9191",
+      "dataConsolidationAPI": "http://localhost:3000",
+      "trackingAPI": "http://54.67.123.129:6666",
+      "bspServiceAPI": "http://54.67.123.129:6666",
+      "droneAPI": "http://54.67.123.129:6666",
+      "monitorAPI": "http://dev-apis.bsale.io:1212"
+    },
+    "redis": { 
+      "host":"ec2-54-193-123-106.us-west-1.compute.amazonaws.com", 
+      "port": 6379, 
+      "db":0, 
+      "password":"486a247ed44697be66127749a86e7efb3a11f46c"
+    }
+  },
+  "production": {
+    "bway": {
+      "host": "rdsdte.c2faipgbmpkg.us-east-1.rds.amazonaws.com",
+      "database": "db_bway_imaginex",
+      "user": "imasale",
+      "password": "imasale",
+      "port": 3306
+    },
+    "generalDB": {
+      "user": "imasale",
+      "password": "imasale",
+      "port": 3306
+    },
+    "apis": {
+      "menuAPI": "http://menu-api.bsale.com",
+      "integratorAPI": "http://integrator-api.bsale.com",
+      "dataConsolidationAPI": "http://data-consolidation.api.bsale.com",
+      "trackingAPI": "http://api.tracking.cl",
+      "bspServiceAPI": "http://bsp-api.imaginex.cl",
+      "droneAPI": "http://bsp-api.imaginex.cl",
+      "monitorAPI": "http://monitor-api.imaginex.cl"
+    },
+    "redis": { 
+      "host":"ec2-54-193-123-106.us-west-1.compute.amazonaws.com", 
+      "port": 6379, 
+      "db":0, 
+      "password":"486a247ed44697be66127749a86e7efb3a11f46c"
+    }
+  }
+}

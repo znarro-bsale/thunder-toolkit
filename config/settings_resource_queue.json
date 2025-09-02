@@ -1,0 +1,41 @@
+{
+  "resource_queue": {
+    "rsc": {
+      "brand": {
+        "queue": [
+          "brand_update_sales_reports"
+        ]
+      },
+      "office": {
+        "queue": [
+          "office_update_sales_reports"
+        ]
+      },
+      "product_type": {
+        "queue": [
+          "product_type_update_sales_reports"
+        ]
+      },
+      "document": {
+        "queue": [
+          "consolidate_sales_reports"
+        ]
+      },
+      "cost": {
+        "queue": [
+          "cost_update_sales_reports"
+        ]
+      },
+      "product": {
+        "queue": [
+          "product_update_sales_reports"
+        ]
+      },
+      "variant": {
+        "queue": [
+          "variant_update_sales_reports"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.env
+**/__pycache__/
+
+.git
+.vscode
+/tmp/*
+!/tmp/.keep

@@ -1,0 +1,79 @@
+{
+  "release_report_v2_view": {
+
+    "versions" : {
+      "beta" : {
+        "variable": "reports_v2_beta",
+        "valor": "https://beta-report.bsale.app/",
+        "description": "sys_config.variable.reports_v2_beta"
+      },
+      "gamma": {
+        "variable": "reports_v2_gamma",
+        "valor": "https://gama-report.bsale.app/",
+        "description": "sys_config.variable.reports_v2_gamma"
+      },
+      "prod": {
+        "variable": "reports_v2",
+        "valor": "https://report.bsale.app/",
+        "description": "sys_config.variable.reports_v2"
+      }
+    },
+
+    "views": {
+      "sales_overview": {
+        "accion_modulo": "accion_modulo.reports_v2.sales_overview.view",
+        "bs_menu_link":{
+          "ml_name": "reports_v2.sales_overview",
+          "ml_url": "&url=/sales/overview",
+          "ml_order": 0
+        }
+      },
+  
+      "sales_reports": {
+        "accion_modulo": "accion_modulo.reports_v2.sales_reports.view",
+        "bs_menu_link":[{
+          "ml_name": "reports_v2.sales_details",
+          "ml_url": "&url=/sales/details"
+        }, {
+          "ml_name": "reports_v2.payment_methods",
+          "ml_url": "&url=/sales/payment_methods"
+        },
+        {
+          "ml_name": "reports.my_sales",
+          "ml_url": "&url=/sales/my_sales"
+        },
+        {
+          "ml_name": "reports_v2.sales_overview",
+          "ml_url": "&url=/sales/overview"
+        }
+      
+      ],
+
+      "bs_menu_link_insert":[{
+        "ml_name": "reports_v2.sales_details",
+        "ml_url": "&url=/sales/details",
+        "ml_order": 1
+      }, {
+        "ml_name": "reports_v2.payment_methods",
+        "ml_url": "&url=/sales/payment_methods",
+        "ml_order": 2
+      }
+    ],
+        "update_bs_menu_link_my_sales": {
+          "ml_name": "reports.my_sales",
+          "ml_url": "&url=/sales/my_sales"
+        },
+        "update_bs_menu_link_overview": {
+          "ml_name": "reports_v2.sales_overview"
+        }
+      },
+    "dashboard": {
+        "bs_menu_link": {
+          "ml_name": "reports_v2.dashboard",
+          "ml_url": "&url=/sales/dashboard",
+          "ml_order": 0
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "release_menu_v2": {
+    "modes": {
+      "single": {
+        "info": "Un solo cpnId",
+        "value": "single"
+      },
+      "multiple": {
+        "info": "Varios cpnIds",
+        "value": "multiple"
+      }
+    },
+    "versions" : {
+      "v1" : {
+        "info": "versión 1 del menu",
+        "value": 1
+      },
+      "v2": {
+        "info": "versión 2 del menu",
+        "value": 2
+      }
+    }
+  }
+}
